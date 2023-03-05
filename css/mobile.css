@@ -1,0 +1,37 @@
+@media screen and (min-width: 480px){
+    .container {
+        max-width: 428px;
+    }
+    .mob-contact-link-phon {
+          font-size: 36px;    
+    }
+    .mob-social-list {
+        display: flex;
+        gap: 56px;
+        justify-content: start;
+    }
+    .modal-window-one{
+        top:50%;
+        width: 392px;
+        min-height: 576px;
+    }
+    .name-text-form{
+        font-size: 16px;
+        margin-bottom: 16px;
+        margin-top: 24px;
+    }
+        
+    .modal-input {
+        height: 40px;
+    }
+
+    .modal-message {
+        height: 120px;
+    }
+
+    .label-checkbox .check-icon {
+        width: 16px;
+        height: 16px;       
+    }
+                
+}
