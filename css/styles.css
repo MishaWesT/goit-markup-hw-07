@@ -35,7 +35,8 @@
         --active-address-color:  #404BBF;
         --modal-backgraund-color: #FCFCFC;
         --bc-color:#F4F4FD;
-        --time-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);    
+        --time-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        --gradien-hero:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));    
 }
 
 body{
@@ -101,17 +102,14 @@ img {
 
 .header-page {
         display: block;
-        padding-top: 24px;
-        padding-bottom: 24px;
+        padding-top: 0;
+        padding-bottom: 0;
         border-bottom: 1px solid var(--color-border-card);
         box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-.header-page{
-        padding-top: 0;
-        padding-bottom: 0;
-}
+
 .header-page > .container {
         position: relative;
 }
@@ -789,7 +787,7 @@ img {
 
 .modal-window-one{
         position: absolute;
-        top:280px;
+        top:50%;
         left:50%;
         transform: translate(-50%, -50%) scale(1);
         width: 310px;
@@ -841,8 +839,9 @@ img {
 
 .card-hidden-text {
         position: absolute;
-        top: 0;
-        left: 0;
+        padding-top:40px;
+        padding-left: 32px;
+        padding-right: 32px;
         background-color: var(--accent-color);
         color: var(--bc-color);
         letter-spacing: 0.02em;
@@ -850,7 +849,6 @@ img {
         height: 100%;
         font-weight: 400;
         font-size: 16px;
-        padding: 32px 40px;
         overflow-y: auto;
         transform: translateY(100%);
         transition: transform var(--time-transition);
