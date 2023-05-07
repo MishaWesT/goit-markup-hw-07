@@ -152,10 +152,8 @@ button {
   position: sticky;
   top: 0;
   z-index: 100;
-  border-bottom: 0.5px solid var(--cornflower-color);
-  background-color: transparent;
-  backdrop-filter: blur(30px);
-
+  border-bottom: 1px solid var(--cornflower-color);
+  background-color: var(--body-background-color);
 }
 
 .header-container {
